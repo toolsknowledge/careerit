@@ -1,0 +1,492 @@
+FullStack
+*********
+    end to end development called as FullStack development
+    FullStack includes
+            1) Frontend
+            2) Backend
+            3) DataBase
+            4) Deployment
+            5) AI (Artificial Intellegence)
+
+Frontend
+********
+    as a "end user" we are able to interact with "Frontend"
+    Ex.
+            click login button
+            enter username
+            enter OTP
+            ---
+            ---
+            ---
+
+    Frontend technologies are not secured, because we are able to view the source code in browser
+    Ex.
+            right click --> view page source
+    
+    below technologies are used to build the Frontend
+    HTML / HTML5.x
+    CSS / CSS3.x
+    JavaScript
+    React
+    Angular
+    ---
+    ---
+    ---
+    ---
+
+    As a end user, we are unable to interact with "Backend"
+    by using "Backend", we are able to provide secuirity to business logic
+    below technologies are used to build Backend
+    1) Java
+    2) Python
+    3) NodeJS
+    4) DotNet
+    ---
+    ---
+    ---
+
+DataBases
+*********
+    DataBases are used to persist(save) the Data
+    we have two types DataBases
+    1) SQL
+    2) NoSQL
+
+    SQL DataBases Examples                      NoSQL
+    **********************                      *****
+    Oracle                                      MongoDB
+    MySQL                                       CassandraDB
+    SQLServer                                   chromedb
+    ---                                         ---
+    ---                                         ---
+    ---                                         ---
+
+    NoSQL DataBases are light weight DataBases compared to SQL DataBases
+    NoSQL DataBases consumes less bandwidth and less burden on hardware
+
+Deployment
+**********
+    making application live called as Deployment
+    (make available to public)
+
+    below servers are used to implement Deployment
+    1) AWS (Amazon Web Services)
+    2) Microsoft Azure
+    3) GCP
+    4) Heroku
+    5) Netlify
+    6) vercel
+    ---
+    ---
+    ---
+    ---
+
+AI Integration (Gen AI Integration)
+***********************************
+    we are able to Integrte Gen AI to FullStack development
+    Ex.
+            chatgpt
+            ClaudeAI
+            Gamma
+            Perplexity
+            NotebookLM
+            Gemini AI
+            ---
+            ---
+            ---
+
+Software Installations
+**********************
+1) download and install visual studio code
+
+    website : https://code.visualstudio.com/download
+
+2) enable AutoSave
+        click File ---> enable AutoSave
+        what ever applications we are developing, will save Automatically
+
+3) install LiveServer plugin
+        helps to execute HTML,CSS and JavaScript in browsers
+
+        Extensions --> Search "Live Server" --> select "Live Server" --> click install
+
+
+HTML
+****
+    HTML Stands for Hyper Text Markup Language
+    HTML, used to develop static web pages
+    we have two types of web applications
+    1) static web application
+    2) dynamic web application
+    static web application
+    **********************
+        content fixed irrespective of location called as static web application
+        Ex.
+                w3schools
+                tutorial points
+                ---
+                ---
+                ---
+    dynamic web application
+    ***********************
+        content varies based on location called as dynamic web application
+        Ex.
+                Swiggy
+                Zomoto
+                Rapido
+                ola
+                --
+                --
+                --
+
+    Latest version is HTML5.x
+    HTML Released by "Tim Berners Lee"
+    HTML is "Tag Based" Markup Language
+    Ex.
+        <table></table>
+        <head></head>
+        <body></body>
+        <h1></h1>
+        <p></p>
+        <br>
+        <hr>
+        ---
+        ---
+        ---
+
+    Tags divided into two types
+    1) paired/container tags
+    2) non-paired / non-container tags
+
+    paired/container tags
+    *********************
+        paired/container tags containes both opening tag and closing tag
+        Ex.
+                <html></html>
+                <head></head>
+                <body></body>
+                ---
+                ---
+                ---
+    non-paired / non-container tags
+    *******************************
+        non-paired / non-container tags containes only opening tag
+        Ex.
+                <br>
+                <hr>
+                <img>
+                ---
+                ---
+                ---
+    
+    each tag enclosed with <>
+    closing tag containes /
+
+    HTML Element
+    ************
+        combination of opening tag, content and closing tag called as HTML Element
+        HTML Elements are also called as building block of webpages
+
+what are the differences between HTML and HTML5 ?
+
+HTML5, Released new tags
+These Tags technically called as Semantic Elements
+Semantic Elements increases "application readability"
+
+13-May-2026
+***********
+websocket
+    websocket api, used to develop chat application
+    websocket api, available in HTML5
+
+webworker
+    webworker api, used to execute tasks at background with the help of JavaScript
+    webworker api also released in HTML5
+
+storages
+    HTML5, supports two types of storages
+    1) local storage
+    2) session storage
+
+    local storage
+        when ever we close the browser (or) opens new tab in browser, we never lost data from localstorage
+        Ex.
+                cart in ecommerce application
+
+    session storage
+        when ever we close the browser (or) opens the new tab, we will lost data from session storage
+        Ex.
+                payment gateways in ecommerce-application
+
+    geolocation
+        geolocation api, used to find the location of particular object
+        Ex.
+            latitude
+            longitude
+
+        geolocation api also available in HTML5
+
+    drag & drop
+        drag & drop api also available in HTML5
+        we are able to "drag and drop" of particular HTML element
+
+Structure of webpage
+********************
+DOCTYPE
+ROOT SECTION
+    HEAD SECTION
+        METADATA
+
+    BODY SECTION
+        MAIN CONTENT
+
+DOCTYPE Representing HTML version
+browsers only understands DOCTYPE
+below DOCTYPE Representing HTML5
+
+            <!DOCTYPE html>
+
+<html></html> tag, used to create ROOT Section of webpage
+<head></head> tag, used to create HEAD Section of webpage
+<body></body> tag, used to create BODY Section of webpage
+
+information about webpage called as METADATA
+<meta> is the non paired tag, used to define METADATA
+we will define METADATA, under HEAD Section of webpage
+Ex.
+        author
+        version
+        description
+        ---
+        ---
+        ---
+
+we will define main content under body Section of webpage
+Ex.
+    Tables
+    Forms
+    Headings
+    Paragraphs
+    ---
+    ---
+    ---
+
+14-May-2026
+***********
+Attributes
+    Attributes, enhances HTML Element functionality
+    Attributes applicable to only opening tag
+    Attributes are key & value pairs
+    key & value separated by using "="
+    key & value pairs separated by using space(" ")
+
+IDE Stands for Integrated Development Environment
+IDE'S are used to build the applications
+Ex.
+    Notepad
+    wordpad
+    Ecilipse
+    VSCode
+    ---
+    ---
+    ---
+
+VSCode(Visual Studio Code) is Recomended IDE, to build web application
+VSCode Provided by Microsoft and Open source IDE
+
+extension for HTML Pages are ".html" (or) ".htm"
+extension for CSS files are ".css"
+extension for JavaScript files are ".js"
+
+web browsers are used to execute the HTML,CSS and JavaScript
+Ex.
+        Google Chrome
+        Mozilla
+        Opera
+        Safari
+        ---
+        ---
+        ---
+
+CSS Stands for Cascading Style Sheet
+CSS, used to apply Styles to web pages
+Current version is CSS3.X
+
+JavaScript is the Scripting Language
+JavaScript, used to build duynamic web pages
+JavaScript Released by "Netscape"
+Current version is ES13
+ES Stands for ECMA Script
+ECMA Stands for Europian Computers Manufacturing Association
+
+what are the differences between library and framework ?
+*********************************************************************************************************
+                library                         framework
+*********************************************************************************************************
+1) library containes predefined                framework also containes predefined code developed
+   code developed by vendors                   by vendors
+
+2) Ex.                                          Ex.
+        ReactJS                                         Angular
+        JQuery                                          BootStrap
+
+3) no rules and regulations                     we must follow rules and regulations while using
+   while using library                          framework
+
+4) library is cheaper in budget wise            framework is costlier in budget wise
+
+5) library have more audience compared          framework have less audience compared to library
+   to framework
+
+6) library recomended for to build              framework suggested to build large scale
+   small scale and medium scale                 web applications
+   web applications
+*********************************************************************************************************
+15-May-2026
+***********
+
+Headings
+********
+    HTML supports 6 types of Headings
+    
+    <h1></h1>   main heading
+    <h2></h2>   sub heading
+    <h3></h3>       ""
+    <h4></h4>       ""
+    <h5></h5>       ""
+    <h6></h6>       ""
+
+    <h1></h1> is the large heading
+    <h6></h6> is the least(small) heading
+
+External Stylesheet
+*******************
+    <link> tag, is used to include external style sheets
+    <link> tag is non paired tag
+    <link> tag supports two attributes
+        1) rel = "stylesheet"
+        2) href = "path and name of the css file"
+    syntax.
+        <link rel="stylesheet" href="headings.css">
+
+grouping of selectors
+*********************
+    applying styles to more than one element at a time called as grouping of selectors
+    syntax.
+            h1,p,table,form{
+
+            }
+block level elements
+********************
+    each element starts with "new line" and ocupies "100% width" called as "block level" element
+    Ex.
+            headings
+            paragraphs
+            ---
+            ---
+            ---
+    below css snippet, used to convert block level to inline display
+
+            display : inline-block;
+
+inline elements
+***************
+    each element never starts with new line, and ocupies only required width
+    Ex.
+            images
+            buttons
+            anchor elements
+            ---
+            ---
+            ---
+    below css snippet used to convert inline display to block level display
+    
+            display: block;
+
+padding
+*******
+    space around the content called as padding in css
+    Ex.
+        padding: 20px;
+
+margin
+******
+    space around the html element called as margin
+    Ex.
+        margin: 20px;
+
+box-model in css
+****************
+    combination of padding, border and margin called as box-model in css
+
+
+16-May-2026
+***********
+paragraphs
+    <p></p> tag, used to display paragraphs in webpages
+
+
+18-May-2026
+***********
+divisions
+    divisions are used to select the portion of webpage
+    <div></div> tag, used to create divisions in webpages
+    <div></div> tag is block level element
+
+class selector in css
+*********************
+    class selector in css starts with "." (dot)
+    class selector may duplicate
+
+    syntax.
+
+    HTML                                CSS
+    ****                                ***
+
+    <p class="c1"></p>                  .c1{}
+
+    <div class="c2 c3"></div>           .c2{}
+                                        .c3{}
+
+id selector in css
+******************
+    id selector starts with "#"
+    id selector must be unique, we may not duplicate
+    
+    syntax.
+        HTML                            CSS
+        ****                            ***
+        <p id="id1"></p>                #id1{}
+
+        
+element selector (tag selector)
+*******************************
+    styles applied based on tag name (element name) called as element selector(tag selector)
+    syntax.
+        HTML                        CSS
+        ****                        ***
+        <p></p>                     p{}
+        <h1></h1>                   h1{}
+
+decendent selector
+******************
+    select one element under another element called as decendent selector
+    syntax.
+    
+    HTML                            CSS
+    ****                            ***
+    <div>                           div h1{}
+        <h1></h1>
+    </div>
+
+    <div>                           div p{}
+        <div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    Note : decendent selector will select particular element with "any depth"
+
+
