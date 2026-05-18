@@ -61,4 +61,10 @@ URL3: https://reqres.in/api/login
             password: "admin123"
         }
 
+        Email:
+        eve.holt@reqres.in
+
+      Password:
+        cityslicka
+
       "Content-Type": "application/json"
