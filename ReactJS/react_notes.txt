@@ -1,0 +1,26 @@
+useRef
+******
+    useRef is the predefined hook, used to read the data from DOM Elements
+
+URL1: https://jsonplaceholder.typicode.com/posts
+    {
+      name: "XXX",
+      email: "XXX",
+      course: "XXX"
+    }
+
+URL2: https://dummyjson.com/users/add
+
+    {
+      empId: 101,
+      empName: "David",
+      salary: 50000
+    }
+
+URL3: https://dummyjson.com/products/add
+
+    {
+      title: "Laptop",
+      price: 70000,
+      category: "Electronics"
+    }
