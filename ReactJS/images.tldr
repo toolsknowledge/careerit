@@ -43,8 +43,8 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": -131.3657373332372,
-			"y": -32.98611025548246,
+			"x": -54.166664753814494,
+			"y": -520.6018318995758,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
@@ -88,12 +88,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:U7y4EIbt3KWtTUQJhpBBu",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:kS2uTim683tVqTOuvCxbj"
+				"shape:U7y4EIbt3KWtTUQJhpBBu"
 			],
-			"hoveredShapeId": "shape:0i2bGqoJyNMUn8sBYwxqk",
+			"hoveredShapeId": "shape:U7y4EIbt3KWtTUQJhpBBu",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -142,6 +142,59 @@
 			},
 			"parentId": "page:page",
 			"index": "a4qKfJPV",
+			"typeName": "shape"
+		},
+		{
+			"x": 127.88085237588481,
+			"y": 643.1332955226227,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:U7y4EIbt3KWtTUQJhpBBu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 578.6583862304688,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "link",
+											"attrs": {
+												"href": "https://github.com/toolsknowledge/careerit.git",
+												"target": "_blank",
+												"rel": "noopener noreferrer nofollow",
+												"class": null
+											}
+										}
+									],
+									"text": "https://github.com/toolsknowledge/careerit.git"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a5PiaB9V",
 			"typeName": "shape"
 		},
 		{
@@ -279,8 +332,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 802.0833129882812,
-				"h": 420.1388854980469
+				"w": 727.0833129882812,
+				"h": 283.33331298828125
 			},
 			"insets": [
 				false,
@@ -295,7 +348,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 3.4560000896453857,
+			"devicePixelRatio": 2.880000114440918,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": true,
 			"openMenus": [],
