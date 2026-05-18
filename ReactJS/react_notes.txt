@@ -2,6 +2,9 @@ useRef
 ******
     useRef is the predefined hook, used to read the data from DOM Elements
 
+POST Requests
+*************
+
 URL1: https://jsonplaceholder.typicode.com/posts
     {
       name: "XXX",
@@ -24,3 +27,38 @@ URL3: https://dummyjson.com/products/add
       price: 70000,
       category: "Electronics"
     }
+
+
+Post Requests with Headers
+
+URL1: https://jsonplaceholder.typicode.com/posts
+
+      {
+        name: "XXXX",
+        email: "XXXXX",
+        course: "XXXXX"
+      }
+
+      "Content-Type": "application/json",
+      "Authorization": "Bearer sample_token_123"
+
+URL2: https://jsonplaceholder.typicode.com/posts
+
+      {
+        name: "XXXX",
+        branch: "XXXX",
+        marks: XXXX
+      }
+
+
+      "Content-Type": "application/json",
+      "Authorization": "Bearer my_token_123"
+
+URL3: https://reqres.in/api/login
+
+        {
+            email: "admin@gmail.com",
+            password: "admin123"
+        }
+
+      "Content-Type": "application/json"
