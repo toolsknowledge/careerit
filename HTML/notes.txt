@@ -489,4 +489,82 @@ decendent selector
 
     Note : decendent selector will select particular element with "any depth"
 
+19-May-2026
+***********
+buttons
+-------
+    <button></button> tag, is used to display the buttons on webpages
+    <button></button> tag is inline element
+    syntax.
+            <button>                <button>
+                Login                      Register
+            </button>               </button>
+
+internal styles
+***************
+    writing styles inside the webpage, called as internal styles
+    <style></style> tag, used to write the internal styles
+    syntax.
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <style>
+                    //Styles
+                </style>
+            </head>
+            ---
+            ---
+            ---
+        </html>
+
+what are the differences between external styles and internal styles ?
+
+***************************************************************************************
+            external styles                     internal styles
+***************************************************************************************
+1) <link> tag, used to include              <style></style> tag, used to write the
+   the external styles                      internal styles
+
+2) <link> tag is non paired                 <style></style> tag is paired tag
+   tag
+        Attributes:
+                1) rel="stylesheet"
+                2) href=""
+
+3) we can achieve styles reusability        we can't achieve styles reusability
+***************************************************************************************
+
+images
+******
+    <img> tag, used to display the images in webpages
+    <img> tag is non-paired tag
+    <img> tag is inline element
+
+    Attributes
+    1) width
+        used to define image width
+    2) height
+        used to define image height
+    3) src
+        used to refer image path (absolute path)
+    4) alt
+        alt attribute, used to display alternative text
+        if image display fails, automatically alternative text will display
+
+pseudo classes
+**************
+    pseudo classes, are used to set special state to an element
+    we will apply pseudo classes with the help of ":"
+    Ex.
+            :hover
+            :nth-child(odd)
+            :nth-child(even)
+            :first-child
+            :last-child
+            ---
+            ---
+            ---
+            ---
+
+ 
 
