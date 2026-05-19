@@ -96,3 +96,9 @@ URL3: https://dummyjson.com/products/1
   "brand": "Apple",
   "category": "smartphones"
 }
+
+Delete Request
+
+URL1: https://dummyjson.com/products/1
+URL2: https://dummyjson.com/users/1
+URL3: https://jsonplaceholder.typicode.com/posts/1
