@@ -68,3 +68,31 @@ URL3: https://reqres.in/api/login
         cityslicka
 
       "Content-Type": "application/json"
+
+PUT Request without Headers
+URL1: https://jsonplaceholder.typicode.com/posts/1
+      {
+      id: XXX,
+      name: "XXX",
+      course: "XXX",
+      city: "XXX"
+    }
+
+URL2: https://dummyjson.com/users/1
+      {
+      empId: XXX,
+      empName: "XXXX",
+      salary: XXXX
+    }
+
+URL3: https://dummyjson.com/products/1
+      {
+  "title": "iPhone 15 Pro",
+  "description": "Latest Apple mobile",
+  "price": 1200,
+  "discountPercentage": 10,
+  "rating": 4.8,
+  "stock": 50,
+  "brand": "Apple",
+  "category": "smartphones"
+}
