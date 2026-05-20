@@ -568,5 +568,38 @@ pseudo classes
 
 https://github.com/toolsknowledge/careerit.git
 
- 
+Anchor Element
+**************
+    <a></a> tag, used to create "anchor elements"
+    anchor elements are also called as "hyperlinks"
+    hyperlinks used to navigate from "one webpage to another webpage"
+    hyperlinks are also used to open "external websites"
+    <a></a> tag is "inline element"
+
+    attributes
+    1) target="_blank"
+        used to open the new tab in browser
+
+    2) href
+        used to target the destination resource
+
+how many ways can we apply styles ?
+
+    we can apply styles in three ways
+    1) external styles
+    2) internal styles
+    3) inline styles
+
+    <link> tag, used to apply external styles
+    <style></style> tag, used to create internal styles
+    style attribute, used to apply inline styles
+
+explain css specificity rule ?
+
+    inline styles(style attribute) > id selector > class selector > element selector > universal selector
+
+    Note : "*" used to represent the universal selector
+
+    
+
 
