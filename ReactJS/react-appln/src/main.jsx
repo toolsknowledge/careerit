@@ -6,6 +6,7 @@ import PostEx2 from './components/PostEx2.jsx'
 import PutEx1 from './components/PutEx1.jsx'
 import DeleteEx from './components/DeleteEx.jsx'
 import Master1 from './components/Master1.jsx'
+import Master2 from './components/Master2.jsx'
 createRoot(document.getElementById('root')).render(
-   <Master1></Master1>,
+   <Master2></Master2>,
 )

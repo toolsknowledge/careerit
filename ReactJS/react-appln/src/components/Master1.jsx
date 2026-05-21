@@ -7,19 +7,17 @@ const Master1 = ()=>{
     return(
         <>
             <BrowserRouter>
-                <Link to={"/laptops"} style={{marginRight:200}}>
+                <Link to={"/laptops/111/lap1/10000"} style={{marginRight:200}}>
                     laptops
                 </Link>
                 <Link to={"/mobiles"} style={{marginRight:200}}>
                     mobiles
                 </Link>
                 <Routes>
-                    <Route path="/laptops" element={<Laptops></Laptops>}>
+                    <Route path="/laptops/:pid/:pname/:pcost" element={<Laptops></Laptops>}>
                         <Route path="laptops/dell" element={<Dell></Dell>}></Route>
-                        <Route path="laptops/hp" element={<Hp></Hp>}></Route>
+                        <Route path="laptops/hp/:v1/:v2/:v3" element={<Hp></Hp>}></Route>
                     </Route>
-
-
                     <Route path="/mobiles" element={<Mobiles></Mobiles>}></Route>
                 </Routes>
             </BrowserRouter>
