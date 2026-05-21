@@ -600,6 +600,76 @@ explain css specificity rule ?
 
     Note : "*" used to represent the universal selector
 
+font-awesome
+************
+    font-awesome is the css library
+    font-awesome library, used to display the symbols
+    Ex.
+        rupee
+        dollar
+        euro
+        facebook
+        google
+        ---
+        ---
+        ---
+
+    we will include font-awesome CDN, in head section of webpage
+    CDN Stands for Content Delivery Network
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <i></i> tag, used to display symbols
+    Ex.
+        <i class="fa fa-inr"></i>.          Rupee
+        <i class="fa fa-dollar"></i>        dollar
+        <i class="fa fa-cart"></i>          cart
+        <i class="fa fa-trash"></i>         recycle bin
+
+Tables
+******
+    collection of rows and columns called as Table
+
+Tags
+****
+    <table></table> tag, used to display the tables
+    <tr></tr> tag, used to create the rows
+    <th></th> tag, used to display headings
+    <td></td> tag, used to display table cell data
+
+    Note : in general all "headings" in "row1"
+
+Attributes
+**********
+1) border
+    used to draw border to the table
+    Ex.
+        border="1"
+
+2) align="left" / "center" / "right"
+    used to align the table
+    default alignment is "left"
+
+3) cellpadding
+    space around the "table cell content" called as cellpadding
+    Ex.
+        cellpadding="20px"
+
+4) cellspacing
+    space between "table cells" called as cellspacing
+    Ex.
+        cellspacing="20px"
+
+5) colspan
+    used to merge the cells horizontally (col wise)
+    Ex.
+        colspan="2"
+
+6) rowspan
+    used to merge the cells vertically
+    Ex.
+        rowspan="2"
     
 
 
