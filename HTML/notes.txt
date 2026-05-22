@@ -670,6 +670,14 @@ Attributes
     used to merge the cells vertically
     Ex.
         rowspan="2"
-    
+
+
+<span></span>
+*************
+    <span></span> tag, used to select the portion of content
+    <span></span> tag is inline element
+    <span></span> tag used to display validations
+ 
+
 
 

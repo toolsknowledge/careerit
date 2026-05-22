@@ -4729,12 +4729,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:pVAMb7ZmVnHGSGIrtB8Re",
+			"editingShapeId": "shape:PQBVH4nhdKTokebzYJFB4",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:pVAMb7ZmVnHGSGIrtB8Re"
+				"shape:PQBVH4nhdKTokebzYJFB4"
 			],
-			"hoveredShapeId": "shape:pVAMb7ZmVnHGSGIrtB8Re",
+			"hoveredShapeId": "shape:PQBVH4nhdKTokebzYJFB4",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -6266,9 +6266,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 290.35787002937934,
-			"y": -482.42560759014464,
-			"z": 0.7095943216171287,
+			"x": 427.3595232888091,
+			"y": -934.0349139909805,
+			"z": 0.3698366942213456,
 			"meta": {},
 			"id": "camera:page:MyRWQqFsgM6oM3Zc2emwx",
 			"typeName": "camera"
@@ -6483,8 +6483,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:color": "blue"
+				"tldraw:size": "xl"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -8399,6 +8398,61 @@
 			},
 			"parentId": "page:SxspoihX9vvZnmCZ7-G5r",
 			"index": "aFYJ0OyV",
+			"typeName": "shape"
+		},
+		{
+			"x": 41.6854625320118,
+			"y": 1267.5845602374945,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PQBVH4nhdKTokebzYJFB4",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 461.77471923828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "<h1> "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "We"
+								},
+								{
+									"type": "text",
+									"text": "lcome </h1>"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:MyRWQqFsgM6oM3Zc2emwx",
+			"index": "acfz0rjG",
 			"typeName": "shape"
 		},
 		{
