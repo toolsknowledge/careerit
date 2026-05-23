@@ -9,7 +9,7 @@ Step 2.
 Step 3.
     upload static resources to aws s3 bucket
 
-    name : careerit-appn
+    name : careerit-appln
 
     {
     "Version": "2008-10-17",
@@ -25,3 +25,9 @@ Step 3.
         }
     ]
 }
+
+https://careerit-appln.s3.us-east-1.amazonaws.com/laptop1.jpeg
+https://careerit-appln.s3.us-east-1.amazonaws.com/laptop2.jpeg
+
+https://careerit-appln.s3.us-east-1.amazonaws.com/mobile1.jpeg
+https://careerit-appln.s3.us-east-1.amazonaws.com/mobile2.jpeg
