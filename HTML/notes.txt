@@ -679,5 +679,14 @@ Attributes
     <span></span> tag used to display validations
  
 
+ iframe
+ ******
+    iframe tag used to 
+        1) open the pdf files
+        2) play youtube videos
+        3) include other webpages
+        4) open google maps
+        5) open wikipedia files
+
 
 
