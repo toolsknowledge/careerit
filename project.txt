@@ -1,0 +1,27 @@
+Step 1.
+    create aws acc
+
+    https://aws.amazon.com/
+
+Step 2.
+    download images
+
+Step 3.
+    upload static resources to aws s3 bucket
+
+    name : careerit-appn
+
+    {
+    "Version": "2008-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowPublicRead",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::careerit-appln/*"
+        }
+    ]
+}
