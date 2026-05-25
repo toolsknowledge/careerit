@@ -688,5 +688,57 @@ Attributes
         4) open google maps
         5) open wikipedia files
 
+Forms
+*****
+    collection of related data called as form
+    Ex.
+        Login Form
+        Registration Form
+        Enrollment Form
+        ---
+        ---
+        ---
 
+Tags
+****
+<form action="" method="" name="" onsubmit="" onreset=""></form>
+    <form></form> tag, used to create forms in webpages
+    <form></form> tag supports five attributes
+    1) action
+        used to connect to Backend
+    2) method="GET/POST/PUT/DELETE"
+            method attribute supports 4 methods
+            1) GET - used to read data from backend
+            2) POST - used to send data to backend
+            3) PUT - used to update backend data
+            4) DELETE - used to delete backend data
+    3) name
+            used to assign logical name to the form
+            Ex.
+                name="regForm"
+                    where "regForm" is the logical name of the form
 
+    4) onsubmit
+            used to handle the submit event
+            Ex.
+                onsubmit="register()"
+                    when ever we click submit button, automatically "register()" function will execute in 
+                    JavaScript
+
+    5) onreset
+            used to handle reset event
+            Ex.
+                onreset="cancel()"
+                    when ever we click cancel button, automatically "cancel()" function will execute in JavaScript
+
+<input type="" name="" placeholder="">
+    <input> tag is non paired tag
+    placeholder attribute, used to display hint text (helper text)
+
+Radio buttons
+*************
+    Radio buttons also called as single selection controls
+
+Check box
+*********
+    Check boxes also called as multi selection controls
