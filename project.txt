@@ -32,6 +32,8 @@ https://careerit-appln.s3.us-east-1.amazonaws.com/laptop2.jpeg
 https://careerit-appln.s3.us-east-1.amazonaws.com/mobile1.jpeg
 https://careerit-appln.s3.us-east-1.amazonaws.com/mobile2.jpeg
 
+https://careerit-appln.s3.us-east-1.amazonaws.com/watch1.jpeg
+
 mongodb
 *******
     mongodb is nosql database
@@ -62,3 +64,11 @@ comparision between SQL and NoSQL ?
 *****************************************************************************************
 
 mongodb acc :  https://www.mongodb.com/cloud/atlas/register
+
+DBName : ecomm
+collections : laptops
+              mobiles
+              watches
+
+path : mongodb+srv://admin:admin@vpro.rx36jsy.mongodb.net/?appName=VPro
+
