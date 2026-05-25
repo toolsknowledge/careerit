@@ -31,3 +31,34 @@ https://careerit-appln.s3.us-east-1.amazonaws.com/laptop2.jpeg
 
 https://careerit-appln.s3.us-east-1.amazonaws.com/mobile1.jpeg
 https://careerit-appln.s3.us-east-1.amazonaws.com/mobile2.jpeg
+
+mongodb
+*******
+    mongodb is nosql database
+    mongodb is light weight database
+    mongodb supports JSON
+    mongodb supports cloud environment in the form of a "mongodb atlas"
+
+comparision between SQL and NoSQL ?
+
+*****************************************************************************************
+            SQL                             NoSQL
+*****************************************************************************************
+1) Ex.                                  Ex.
+        Oracle                                  mongodb
+        MySQL                                   cassandradb
+        SQLServer                                   ---
+        ---                                         ---
+        ---                                         ---
+        ---
+
+2) supports database                        supports the databases
+
+3) tables                                   collections
+
+4) records                                  documents
+
+5) primary key                              _id
+*****************************************************************************************
+
+mongodb acc :  https://www.mongodb.com/cloud/atlas/register
