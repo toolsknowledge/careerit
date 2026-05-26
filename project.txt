@@ -72,3 +72,28 @@ collections : laptops
 
 path : mongodb+srv://admin:admin@vpro.rx36jsy.mongodb.net/?appName=VPro
 
+
+NodeJS
+******
+    NodeJS is the Backend Technology
+    NodeJS, built on top of JavaScript
+    NodeJS, supports libraries
+
+1) express
+    express framework, used to develop api calls
+    GET
+    POST
+    PUT
+    DELETE
+    ---
+    ---
+    ---
+2) mongodb
+    mongodb library, used to connect to mongodb database
+
+3) dotenv
+    dotenv library, used to maintain ".env" files
+    in general ".env" files contains, configuration data
+
+4) cors
+    used to enable the cors policy
