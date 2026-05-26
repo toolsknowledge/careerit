@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms with CSS</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+       <fieldset>
+            <legend>REGISTRATION FORM</legend>
+            
+            <form name="regForm">
+                
+                <table>
+                    <!--ROW1-->
+                    <tr>
+                        <td>
+                            <label>First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fname" placeholder="enter first name">
+                        </td>
+                        <td>
+                            <span>(***enter valid first name***)</span>
+                        </td>
+                    </tr>
+
+                    <!--ROW2-->
+                    <tr>
+                        <td>
+                            <label>Last Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="lname" placeholder="enter last name">
+                        </td>
+                        <td>
+                            <span>(***enter valid last name***)</span>
+                        </td>
+                    </tr>
+
+
+                    <!--ROW3-->
+                    <tr>
+                        <td>
+                            <label>Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="pwd" placeholder="enter password">
+                        </td>
+                        <td>
+                            <span>(***enter valid password***)</span>
+                        </td>
+                    </tr>
+
+                    <!--ROW4-->
+                    <tr>
+                        <td>
+                            <label>Conf Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="cpwd" placeholder="enter confirm password">
+                        </td>
+                        <td>
+                            <span>(***password and confirm password must be same***)</span>
+                        </td>
+                    </tr>
+
+                    <!--ROW5-->
+                    <tr>
+                        <td>
+                            <label>Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="useremail" placeholder="enter email">
+                        </td>
+                        <td>
+                            <span>(***enter valid email address***)</span>
+                        </td>
+                    </tr>
+
+                    <!--ROW6-->
+                    <tr>
+                        <td>
+                            <label>Mobile</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="contact" placeholder="enter mobile number">
+                        </td>
+                        <td>
+                            <span>(***enter valid mobile address***)</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>DOB</label>
+                        </td>
+                        <td>
+                            <input type="date" name="dob">
+                        </td>
+                        <td>
+                            <span>(***enter valid dob***)</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Pref Time</label>
+                        </td>
+                        <td>
+                            <input type="time" name="ptime">
+                        </td>
+                        <td>
+                            <span>(***enter valid pref time***)</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Fav Color</label>
+                        </td>
+                        <td>
+                            <input type="color" name="favcolor">
+                        </td>
+                        <td>
+                            <span>(***choose fav color***)</span>
+                        </td>
+                    </tr>
+
+
+
+                    <!-- ROW7 -->
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                        </td>
+                        <td>
+                            <span>(***select gender***)</span>
+                        </td>
+                    </tr>
+
+                    <!-- ROW8 -->
+                    <tr>
+                        <td>
+                            <label>Languages</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="lang" value="C">C Lang
+                            <input type="checkbox" name="lang" value="cpp">C++
+                        </td>
+                        <td>
+                            <span>(***select languages***)</span>
+                        </td>
+                    </tr>
+                    <!-- ROW9 -->
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="lang" value="java">Java Framework
+                            <input type="checkbox" name="lang" value="python">Python
+                        </td>
+                        <td></td>
+                    </tr>
+
+                    <!-- ROW10-->
+                    <tr>
+                        <td>
+                            <label>Country</label>
+                        </td>
+                        <td>
+                            <select name="country">
+                                <option value="">--select country--</option>
+                                <option value="ind">India</option>
+                                <option value="usa">America</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </td>
+                        <td>
+                            <span>(***select country***)</span>
+                        </td>
+                    </tr>
+
+                    <!-- ROW11 -->
+                    <tr>
+                        <td>
+                            <label>Attach Resume</label>
+                        </td>
+                        <td>
+                            <input type="file" name="prof">
+                        </td>
+                        <td>
+                            <span>(***pdf size must be <10mb***)</span>
+                        </td>
+                    </tr>
+
+                    <!-- ROW12 -->
+                    <tr>
+                        <td>
+                            <label>Address</label>
+                        </td>
+                        <td>
+                            <textarea name="addr" placeholder="enter address"></textarea>
+                        </td>
+                        <td>
+                            <span>(***address must be less than 100 characters***)</span>
+                        </td>
+                    </tr>
+
+                    <!--ROW13-->
+                    <tr>
+                        <td>
+                            <input type="submit" value="Register">
+                        </td>
+                        <td>
+                            <input type="reset" value="Cancel">
+                        </td>
+                    </tr>
+
+                </table>
+            
+            </form>
+       </fieldset>
+    </body>
+</html>

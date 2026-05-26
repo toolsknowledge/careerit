@@ -742,3 +742,15 @@ Radio buttons
 Check box
 *********
     Check boxes also called as multi selection controls
+
+dropdown
+********
+    <select></select> tag, used to create the dropdowns in webpages
+    <option></option> tag, used to populate the options to dropdown
+
+textarea
+*********
+    <textarea></textarea> tag, used to enter text like "address"
+
+submit & reset buttons
+**********************
