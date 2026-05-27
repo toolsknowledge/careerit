@@ -776,4 +776,31 @@ z-index
     z-index, used to change the order of elements in stack
     Ex.
         z-index : 100;
-        
+
+absolute
+********
+    moving elements with respect to closest ancestor(parent) called as absolute position
+    Ex.
+        position: absolute;
+        left:
+        right:
+        top:
+        bottom:
+
+    Note : because of absolute position, other elements will effect in layout
+
+what are the differences between relative position and absolute position ?
+
+**********************************************************************************************************
+                    relative position                       absolute position
+**********************************************************************************************************
+1) moving element from starting                         moving element with respect to closest
+   position called as relative position                 parent(ancestor) called as absolute position
+
+   syntax.                                              syntax.
+        position: relative;                                 position: absolute;
+
+2) because of relative position                         because of absolute position, other elements
+   other elements never effects                         will effect in webpage
+   in webpage
+**********************************************************************************************************
