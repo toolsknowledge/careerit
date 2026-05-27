@@ -754,3 +754,26 @@ textarea
 
 submit & reset buttons
 **********************
+
+positions
+*********
+    css supports five positions
+    1)relative
+    2)absolute
+    3)fixed
+    4)sticky
+    5)static
+
+relative
+********
+    moving element from it's origin called as relative position
+
+    Note : because of relative positions, other elements never effect in layout
+
+z-index
+*******
+    z-index released in CSS3
+    z-index, used to change the order of elements in stack
+    Ex.
+        z-index : 100;
+        
