@@ -822,3 +822,10 @@ sticky
             position: sticky;
             
 Note : default position is "static"
+
+
+border-box
+**********
+    in border-box, "padding and border of an element" included to "original width and height" of an element
+    syntax.
+            box-sizing : border-box;
