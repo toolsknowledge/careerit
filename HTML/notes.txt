@@ -804,3 +804,21 @@ what are the differences between relative position and absolute position ?
    other elements never effects                         will effect in webpage
    in webpage
 **********************************************************************************************************
+
+fixed
+*****
+    fix html element on webpage called as fixed position
+    syntax.
+            position: fixed;
+            left :
+            right :
+            top :
+            bottom :
+
+sticky
+******
+    while scrolling, element will stick on either top/bottom of webpage
+    syntax.
+            position: sticky;
+            
+Note : default position is "static"
