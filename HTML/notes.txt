@@ -829,3 +829,34 @@ border-box
     in border-box, "padding and border of an element" included to "original width and height" of an element
     syntax.
             box-sizing : border-box;
+
+Lists
+*****
+    HTML, Supports three types of Lists
+    1) Ordered List
+    2) Unordered List
+    3) Definition List
+
+Ordered List
+************
+    <ol></ol> is the tag, used to create Ordered List
+    <li></li> is the tag, used to create List Item
+
+    syntax.
+            <ol>
+                <li></li>
+                ---
+                ---
+                ---
+            </ol>
+    Attributes
+    1) type = "A" / "a" / "I" / "i" / 1
+        used to change the list styles
+        default is "number"
+    2) start
+        used to start the list with required number
+        start="10"
+        list starts with 10
+    3) reversed
+        used to reverse the list number
+        
