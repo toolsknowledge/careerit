@@ -859,4 +859,20 @@ Ordered List
         list starts with 10
     3) reversed
         used to reverse the list number
+
+unordered list
+**************
+    <ul></ul> is the tag, used to create unordered list
+    syntax.
+            <ul>
+                <li></li>
+                <li></li>
+                ---
+                ---
+                ---
+            </ul>
+    Attributes
+    **********
+    1) type="disk" / "circle" / "square"
+    default is "disk"
         
