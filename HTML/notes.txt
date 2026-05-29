@@ -876,8 +876,33 @@ unordered list
     1) type="disk" / "circle" / "square"
     default is "disk"
 
-    Nested List
-    ***********
-        one list inside another list called as Nested List
-        
-        
+Nested List
+***********
+    one list inside another list called as Nested List
+
+Definition List
+***************
+    <dl></dl> is the tag, used to create Definition List
+    <dt></dt> is the tag, used to create Definition Term
+    <dd></dd> is the tag, used to create Definition description
+
+    syntax
+            <dl>
+                <dt></dt>
+                <dd></dd>
+                <dd></dd>
+                ---
+                ---
+                ---
+                <dt></dt>
+                <dd></dd>
+                <dd></d>>
+                ---
+                ---
+                <dt></dt>
+                <dd></dd>
+                <dd></dd>
+                ---
+                ---
+                ---
+            </dl>        
