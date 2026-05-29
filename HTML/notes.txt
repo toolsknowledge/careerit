@@ -875,4 +875,9 @@ unordered list
     **********
     1) type="disk" / "circle" / "square"
     default is "disk"
+
+    Nested List
+    ***********
+        one list inside another list called as Nested List
+        
         
