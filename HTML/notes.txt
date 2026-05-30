@@ -905,4 +905,16 @@ Definition List
                 ---
                 ---
                 ---
-            </dl>        
+            </dl>  
+
+<marquee></marquee>
+          used to scroll the html element
+
+attributes
+**********
+1) direction="right" / "left" / "up" / "down"
+    default direction is "left"
+2) scrollamount
+    used to control the "scroll speed"
+3) width
+    used to define "scroll area" on webpage
