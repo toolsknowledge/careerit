@@ -918,3 +918,37 @@ attributes
     used to control the "scroll speed"
 3) width
     used to define "scroll area" on webpage
+
+
+pseudo classes
+**************
+    pseudo classes are used to set, special state to an element
+    we will apply pseudo classes by using ":"
+    Ex.
+            :hover
+            :first-of-type
+            :last-of-type
+            :nth-child
+            :first-child
+            :last-child
+            ---
+            ---
+            :checked
+            :active
+            :visited
+            :link
+            :disabled
+            :not(selector)
+            :empty
+
+pseudo elements
+***************
+    pseudo elements are used to select portion of html element
+    we will apply pseudo elements with the help of "::"
+Ex.
+    ::before
+    ::after
+    ::first-line
+    ::first-letter
+    ::marker
+    ::placeholder

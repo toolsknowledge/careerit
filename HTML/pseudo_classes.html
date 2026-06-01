@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo classes</title>
+        <style>
+            p::before{
+                content: "👉 ";
+            }
+            p::after{
+                content: " 😀";
+            }
+            div::first-letter{
+                color: blue;
+                font-style: italic;
+            }
+            div::first-line{
+                background-color: olive;
+            }
+            input::placeholder{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JAVASCRIPT</p>
+        <p>REACT</p>
+        <p>NODEJS</p>
+
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum possimus nam vero suscipit sint laboriosam quis placeat fugit laborum esse dolor voluptatem molestias eos excepturi, eveniet beatae sunt repellendus perferendis! Maiores maxime et aspernatur velit nisi quam labore aperiam facere tempora illum culpa impedit eaque, vitae hic iure placeat? Minus dolore perspiciatis numquam sapiente et culpa eum atque! Deserunt ea similique optio ipsum. Sint animi magni recusandae assumenda et culpa, architecto quos sequi amet qui impedit quis autem corrupti, unde explicabo consequatur quaerat quas. Ratione sunt magnam pariatur alias vel doloribus quasi, culpa suscipit quaerat maxime! Illo ab unde debitis?</div>
+        
+        <input type="text" placeholder="enter user name">
+    
+    </body>
+</html>
