@@ -952,3 +952,18 @@ Ex.
     ::first-letter
     ::marker
     ::placeholder
+
+CSS Flex
+********
+    CSS Flex,used to move element(html element) horizontally
+    CSS Flex is one dimensional
+    CSS Flex, mainly on "content" not on "layout design"
+    in CSS Flex, parent and child relationship mandatory
+    parent element called as "container" element and child element called as "flex item"
+    horizontal axis called as "main axis"  and vertical axis called as "cross axis"
+
+properties
+**********
+1) display : flex;
+        used to convert block level elements to inline elements
+        this property applicable to only "parent element"
