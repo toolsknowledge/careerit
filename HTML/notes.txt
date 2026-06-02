@@ -986,3 +986,7 @@ properties
     used to change the order of flex items
     Ex.
         order : 10;
+
+6) flex-direction: row / row-reverse / column / column-reverse;
+    used to change the direction of flex items
+    default direction is "row"
