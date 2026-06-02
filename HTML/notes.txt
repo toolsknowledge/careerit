@@ -967,3 +967,22 @@ properties
 1) display : flex;
         used to convert block level elements to inline elements
         this property applicable to only "parent element"
+
+2) gap
+    used to maintain, gap between flex items
+    Ex.
+            gap: 20px;
+
+3) justify-content : flex-start / center / flex-end / space-between / space-around / space-evenly;
+    used to move flex items horizontally
+    default value is "flex-start"
+
+4) align-items : flex-start / center / flex-end / stretch;
+    used to move flex items vertically
+    "height" property mandatory to use align-items
+    default value is "stretch"
+
+5) order
+    used to change the order of flex items
+    Ex.
+        order : 10;
