@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid !!!</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .parent{
+                text-align: center;
+                color: white;
+                display: grid;
+                height: 100vh;
+                grid-template-rows: 15% 75% 10%;
+                grid-template-columns: 15% 70% 15%;
+            }
+            .header{
+                background-color: gray;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .left{
+                background-color: cyan;
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            .main{
+                background-color: orchid;
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            .right{
+                background-color: cyan;
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+            .footer{
+                background-color: gray;
+                grid-column: 1/4;
+                grid-row: 3/4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="left">LeftMenu</div>
+            <div class="main">Main</div>
+            <div class="right">RightMenu</div>
+            <div class="footer">Footer</div>
+        </div>
+    </body>
+</html>

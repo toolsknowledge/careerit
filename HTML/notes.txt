@@ -994,3 +994,55 @@ properties
 7) flex-wrap : wrap / wrap-reverse / nowrap;
     used to wrap the flex items
     default value is "nowrap"
+
+what are the differences between flex and grid ?
+
+
+***************************************************************************************************************
+                Flex                                        Grid
+**************************************************************************************************************
+1) Flex is one dimensional                          Grid is two dimensional
+
+2) Flex mainly on content                           Grid mainly on design
+
+3) we will initilize flex by using                  we will initilize grid by using
+        display: flex;                                     display: grid;
+
+4) in flex, we need "parent and child"                in grid also, we need "parent and child" relationship
+   relationship
+
+5) by default Flex in "responsive"                  by default "grid" also responsive
+*************************************************************************************************************
+
+grid properties
+***************
+1) display : grid;
+    used to initilize the grid layout
+
+2) grid-template-rows
+        used to initilize the grid layout rows
+        Ex.
+                grid-template-rows: 15% 70% 15%;
+                                  : 10% 10% 40% 40%;
+                                  : 1f 1f 1f;
+                                  : 1f 2f 1f;
+                                  : 10% 1f 20%;
+3) grid-template-columns
+        used to define the grid layout columns
+
+4) gap  
+        maintain gap between grid items
+        Ex.
+            gap:20px;
+
+5) grid-column
+        used to define vertical edges
+        Ex.
+            grid-column: 1/4;
+                    starts at "1" and end at "4"
+
+6) grid-row
+        used to define horizontal edges
+        Ex.
+            grid-row: 1/2;
+            starts at "1" and end at "2"
