@@ -1,53 +1,69 @@
-import { useEffect, useState } from "react"
-import "./Styles.css"
-import axios from "axios"
-import { useContext } from "react";
+import { useEffect, useState, useContext } from "react";
+import axios from "axios";
+
 import { CartContext } from "../CartContext";
-const Watches = ()=>{
-    const { addToCart } = useContext(CartContext);
-    const [res,setRes] = useState([])
-    const make_api_call = async ()=>{
-        const {data} = await axios.get("http://localhost:9090/watches")
-        setRes(data);
-    }
-   
-    useEffect(()=>{
-        make_api_call()
-    },[]);
 
-    return(
-        <>
-            <div className="product-grid">
-{
-res.map((item)=>(
-    <div className="product-card" key={item.pid}>
+const Watches = () => {
 
-        <img
-          src={item.pimg}
-          alt={item.pname}
-        />
+    const [res, setRes] = useState([]);
 
-        <div className="product-info">
+    const { addToCart } =
+        useContext(CartContext);
 
-          <h3>{item.pname}</h3>
+    useEffect(() => {
 
-          <p>{item.pid}</p>
+        axios
+            .get(
+                "http://localhost:9090/watches"
+            )
+            .then(response =>
+                setRes(response.data)
+            );
 
-          <h2>₹ {item.pcost}</h2>
+    }, []);
 
-          <button
-            onClick={()=>addToCart(item)}
-          >
-            Add To Cart
-          </button>
+    return (
+
+        <div className="product-grid">
+
+            {
+                res.map(item => (
+
+                    <div
+                        className="product-card"
+                        key={item.pid}
+                    >
+
+                        <img
+                            src={item.pimg}
+                            alt={item.pname}
+                        />
+
+                        <div className="product-info">
+
+                            <h3>{item.pname}</h3>
+
+                            <h2>
+                                ₹ {item.pcost}
+                            </h2>
+
+                            <button
+                                onClick={() =>
+                                    addToCart(item)
+                                }
+                            >
+                                Add To Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                ))
+            }
 
         </div>
+    );
+};
 
-    </div>
-))
-}
-</div>
-        </>
-    )
-}
 export default Watches;

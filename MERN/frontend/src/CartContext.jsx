@@ -4,46 +4,92 @@ export const CartContext = createContext();
 
 const CartProvider = ({ children }) => {
 
-  const [cartItems, setCartItems] = useState([]);
+    const [cartItems, setCartItems] = useState([]);
 
-  const addToCart = (product) => {
+    const addToCart = (product) => {
 
-    const exists = cartItems.find(
-      item => item.pid === product.pid
-    );
+        const exists =
+            cartItems.find(
+                item => item.pid === product.pid
+            );
 
-    if(exists){
+        if (exists) {
 
-      const updated = cartItems.map(item =>
-        item.pid === product.pid
-          ? { ...item, quantity: item.quantity + 1 }
-          : item
-      );
+            setCartItems(
+                cartItems.map(item =>
+                    item.pid === product.pid
+                        ? {
+                            ...item,
+                            quantity: item.quantity + 1
+                        }
+                        : item
+                )
+            );
 
-      setCartItems(updated);
+        } else {
 
-    }else{
-
-      setCartItems([
-        ...cartItems,
-        {
-          ...product,
-          quantity:1
+            setCartItems([
+                ...cartItems,
+                {
+                    ...product,
+                    quantity: 1
+                }
+            ]);
         }
-      ]);
-    }
-  };
+    };
 
-  return (
-    <CartContext.Provider
-      value={{
-        cartItems,
-        addToCart
-      }}
-    >
-      {children}
-    </CartContext.Provider>
-  );
+    const removeFromCart = (pid) => {
+
+        setCartItems(
+            cartItems.filter(
+                item => item.pid !== pid
+            )
+        );
+    };
+
+    const increaseQty = (pid) => {
+
+        setCartItems(
+            cartItems.map(item =>
+                item.pid === pid
+                    ? {
+                        ...item,
+                        quantity: item.quantity + 1
+                    }
+                    : item
+            )
+        );
+    };
+
+    const decreaseQty = (pid) => {
+
+        setCartItems(
+            cartItems
+                .map(item =>
+                    item.pid === pid
+                        ? {
+                            ...item,
+                            quantity: item.quantity - 1
+                        }
+                        : item
+                )
+                .filter(item => item.quantity > 0)
+        );
+    };
+
+    return (
+        <CartContext.Provider
+            value={{
+                cartItems,
+                addToCart,
+                removeFromCart,
+                increaseQty,
+                decreaseQty
+            }}
+        >
+            {children}
+        </CartContext.Provider>
+    );
 };
 
 export default CartProvider;

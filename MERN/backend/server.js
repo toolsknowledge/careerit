@@ -4,7 +4,7 @@ const {MongoClient} = require("mongodb");
 require("dotenv").config();
 
 const app = express();
-
+const paymentRoutes = require("./routes/payment");
 // app.use(cors());
 app.use(
   cors({
@@ -57,6 +57,7 @@ app.get("/watches",async (req,res)=>{
     }
 });
 
+app.use("/api/payment", paymentRoutes);
 
 app.listen(9090,()=>{
     console.log("server listening port no. 9090");

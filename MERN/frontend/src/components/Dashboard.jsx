@@ -1,46 +1,61 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../CartContext";
 
 const Dashboard = () => {
 
-  const { cartItems } = useContext(CartContext);
+    const navigate = useNavigate();
 
-  return (
-    <>
-      <nav className="navbar">
+    const { cartItems } =
+        useContext(CartContext);
 
-        <div className="logo">
-          🛒 ShopHub
-        </div>
+    const cartCount =
+        cartItems.reduce(
+            (sum, item) =>
+                sum + item.quantity,
+            0
+        );
 
-        <div className="menu">
-          <NavLink to="/laptops">Laptops</NavLink>
-          <NavLink to="/mobiles">Mobiles</NavLink>
-          <NavLink to="/watches">Watches</NavLink>
-        </div>
+    return (
+        <>
+            <nav className="navbar">
 
-        <div className="cart">
-          🛍️ Cart
+                <div className="logo">
+                    🛒 ShopHub
+                </div>
 
-          <span className="cart-count">
-            {
-              cartItems.reduce(
-                (total,item)=>total+item.quantity,
-                0
-              )
-            }
-          </span>
+                <div className="menu">
 
-        </div>
+                    <NavLink to="/laptops">
+                        Laptops
+                    </NavLink>
 
-      </nav>
+                    <NavLink to="/mobiles">
+                        Mobiles
+                    </NavLink>
 
-      <div className="content">
-        <Outlet />
-      </div>
-    </>
-  );
+                    <NavLink to="/watches">
+                        Watches
+                    </NavLink>
+
+                </div>
+
+                <div
+                    className="cart"
+                    onClick={() => navigate("/cart")}
+                >
+                    🛍️ Cart
+
+                    <span className="cart-count">
+                        {cartCount}
+                    </span>
+                </div>
+
+            </nav>
+
+            <Outlet />
+        </>
+    );
 };
 
 export default Dashboard;
