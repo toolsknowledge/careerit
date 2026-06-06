@@ -1046,3 +1046,9 @@ grid properties
         Ex.
             grid-row: 1/2;
             starts at "1" and end at "2"
+
+Media Queries
+*************
+    Execution of webpages into multiple devices without any problem called as Media Queries
+    Media Queries are also called as Responsive web design
+    @media is the annotation,used to define media Queries
