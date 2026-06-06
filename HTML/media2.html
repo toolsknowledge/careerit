@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            .header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            @media(max-width:776px){
+                .header{
+                    justify-content: center;
+                }
+                .menu{
+                    display: none;
+                } 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="career.jpeg" alt="CareerIT">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Signin</a>
+            </div>
+        </div>
+    </body>
+</html>
