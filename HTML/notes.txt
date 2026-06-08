@@ -1052,3 +1052,44 @@ Media Queries
     Execution of webpages into multiple devices without any problem called as Media Queries
     Media Queries are also called as Responsive web design
     @media is the annotation,used to define media Queries
+
+1) rem (root em)
+2) em
+3) % (percentage)
+4) vw (viewport width) & vh(viewport height)
+5) px
+
+rem (root em)
+*************
+    all elements dimension depending on root element dimension
+    Ex.
+            1rem = 16px;
+
+em
+**
+    all child elements dimension, depending on parent element dimension
+
+%(percentage)
+*************
+    dimensions with respect to screen called as percentage
+    in percentage dimension, "child element dimensions depending on parent element dimension"
+
+vw(viewport width) & vh(viewport height)
+****************************************
+    dimension with respect to screen called as vw(viewport width) & vh(viewport height)
+    in vw(viewport width) & vh(viewport height), child element dimension wont depending on parent element dimension
+
+px (pixel)
+**********
+    pixel is the default dimension
+    each dot in screen called as pixel
+
+Note : while implementing responsive webdesign, % and vw,vh are recomended
+
+differences between inline and inline-block
+*******************************************
+inline:  problem to top & bottom margins
+
+inline-block : no problem to top & bottom margins
+
+Note : both will appear in same line
