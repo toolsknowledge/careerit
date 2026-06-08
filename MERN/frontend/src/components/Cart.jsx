@@ -28,7 +28,7 @@ const Cart = () => {
             }
 
             const { data: order } = await axios.post(
-                "http://localhost:9090/api/payment/create-order",
+                `${import.meta.env.VITE_API_URL}/api/payment/create-order`,
                 {
                     amount: totalAmount
                 }

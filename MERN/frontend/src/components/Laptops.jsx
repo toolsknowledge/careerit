@@ -12,10 +12,7 @@ const Laptops = () => {
 
     useEffect(() => {
 
-        axios
-            .get(
-                "http://localhost:9090/laptops"
-            )
+       axios.get(`${import.meta.env.VITE_API_URL}/laptops`)
             .then(response =>
                 setRes(response.data)
             );

@@ -8,9 +8,9 @@ const paymentRoutes = require("./routes/payment");
 // app.use(cors());
 app.use(
   cors({
-    origin: "http://localhost:5173", // React Vite frontend
-    credentials: true,
-  })
+  origin: process.env.FRONTEND_URL,
+  credentials: true,
+})
 );
 
 app.use(express.json());

@@ -1,1 +1,6 @@
 welcome to github
+
+shophubapp.duckdns.org
+49.37.158.1
+
+54.81.243.54

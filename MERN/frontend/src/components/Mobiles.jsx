@@ -12,10 +12,7 @@ const Mobiles = () => {
 
     useEffect(() => {
 
-        axios
-            .get(
-                "http://localhost:9090/mobiles"
-            )
+       axios.get(`${import.meta.env.VITE_API_URL}/mobiles`)
             .then(response =>
                 setRes(response.data)
             );

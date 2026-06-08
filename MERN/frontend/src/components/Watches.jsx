@@ -12,10 +12,7 @@ const Watches = () => {
 
     useEffect(() => {
 
-        axios
-            .get(
-                "http://localhost:9090/watches"
-            )
+        axios.get(`${import.meta.env.VITE_API_URL}/watches`)
             .then(response =>
                 setRes(response.data)
             );
